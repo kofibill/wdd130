@@ -1,9 +1,22 @@
-body{
-    text-align:center;
-}
 img{
+    display: block;
     width: 80%;
+    margin: 0 auto;
 }
-a{
-    font-size: 2em;
+main p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+footer{
+    background-color:lightblue;
+    color: rgb(255, 179, 0);
+    text-align: center;
+}
+body{
+    background-color: lightgreen;
 }
