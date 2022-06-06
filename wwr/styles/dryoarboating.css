@@ -8,7 +8,7 @@ nav a{
     text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4{
-    text-align: center;
+    text-align: left;
 }
 .button-box{
     text-align: center;
@@ -22,10 +22,14 @@ main section{
 }
 body{
     background-color: white;
+    font-family:'rock salt' ;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: skyblue;
-    text-align: center;
+    text-align: left;
 
 }
 nav a:hover{
@@ -44,6 +48,8 @@ nav a:hover{
 .msg h2 p{
     background-color: darkorange;
     color: red;
+    line-height: 1.5em;
+    margin: 0;
 }
 footer h3 a:hover{
     background-color: chartreuse;
@@ -53,6 +59,8 @@ footer h3 a:hover{
 }
 .home-title{
     color: red;
+    font-family: 'rock salt', 'roboto';
+    font-size: 2em;
 }
 h4{
     color: red;
