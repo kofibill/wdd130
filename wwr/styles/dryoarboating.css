@@ -1,7 +1,4 @@
-#div{
-    max-width: 1600px;
-    margin: 0  auto;
-}
+#content{max width: 1600px;}
 nav a{
     text-align: center;
     color: greenyellow;
