@@ -1,11 +1,14 @@
-#content{max width: 1600px;}
+#content{
+    max-width: 1600px;
+    margin: 0% auto;
+}     
 nav a{
     text-align: center;
     color: greenyellow;
     text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4{
-    text-align: left;
+    text-align: center;
 }
 .button-box{
     text-align: center;
@@ -42,11 +45,14 @@ nav a:hover{
     background-color: aqua;
     color: red;
 }
-.msg h2 p{
+.msg h2{
     background-color: darkorange;
     color: red;
     line-height: 1.5em;
     margin: 0;
+}
+.msg p{
+    color: blue;
 }
 footer h3 a:hover{
     background-color: chartreuse;
