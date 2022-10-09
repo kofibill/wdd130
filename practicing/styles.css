@@ -1,0 +1,23 @@
+body{
+    text-align: center;
+    background-color: chartreuse;
+}
+h2:hover{
+    background-color: aqua;
+    color: black;
+}
+p{
+    color: black;
+}
+img{
+    display: block;
+    height: 30%;
+    width: 30%;
+    margin: 0 auto;
+}
+#target{
+    color: white;
+}
+#top{
+    color: white;
+}
