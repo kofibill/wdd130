@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    background-color: chartreuse;
+    background-color: white;
 }
 h2:hover{
     background-color: aqua;
@@ -11,13 +11,33 @@ p{
 }
 img{
     display: block;
-    height: 30%;
-    width: 30%;
+    height: 20%;
+    width: 20%;
     margin: 0 auto;
+    border: 4px solid steelblue;
 }
 #target{
-    color: white;
+    color: black;
 }
 #top{
+    color: black;
+}
+footer{
+    background-color: steelblue;
+}
+footer p{
+    padding: 25px;
     color: white;
+}
+h2{
+    margin: 50px 0;
+}
+nav{
+    background-color: steelblue;
+    padding: 25px;
+}
+a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
 }
