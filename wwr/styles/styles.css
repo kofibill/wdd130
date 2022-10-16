@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,7 @@ nav a{
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -20,7 +22,10 @@ main section{
     height: 725px;
 }
 body{
-    background-color: rgb(7, 223, 223);
+    background-color: rgb(223, 223, 223);
+    font-family: 'Roboto', 'Bradley hand', 'sans-serif';
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color: rgb(40, 40, 199);
@@ -33,32 +38,47 @@ nav a:hover{
     background-color: darkgoldenrod;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: chocolate;
     color: brown;
 }
 #background{
-    background-color: rgb(117, 117, 141);
+    background-color: lightgreen;
 }
 .msg{
-    background-color: rgba(4, 165, 165, 0);
+    background-color: gold;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: dodgerblue;
     color: azure;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title{
     color: greenyellow;
+    font-family: 'Rock salt', 'Bradley hand', 'sans-serif';
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: greenyellow;
+    font-family: 'Rock salt', 'Bradley hand', 'sans-serif';
 }
 .msg h2{
     color: greenyellow;
+    font-family: 'Rock salt', 'Bradley hand', 'sans-serif';
 }
 .msg p{
-    color: greenyellow;
+    color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a{
     color: chartreuse;
@@ -69,6 +89,7 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
@@ -76,4 +97,22 @@ footer a:hover{
 footer p a:hover{
     font-size: 1.2em;
     text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid lightgreen;
+}
+main section img{
+    box-sizing: border-box;
+}
+.mountains{
+    height: 500px;
 }
