@@ -14,13 +14,20 @@ header{
     height: 100px;
     padding-top: 20px;
 }
-nav a:nth-of-type(2){
-    padding-left: 300px;
+.links{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.home{
+    padding-right: 40px;
     text-decoration: none;
 }
-nav a:nth-of-type(1){
-    padding-left: 200px;
+.protection{
     text-decoration: none;
+}
+.firewalls{
+    text-decoration: none;
+    padding-left: 40px;
 }
 .technology{
     display: grid;
